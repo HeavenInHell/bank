@@ -4,5 +4,6 @@ using UnityEngine;
 
 public class Request : MonoBehaviour
 {
-    public int typeServise;
+    public string typeServise;
+    public bool StateService;
 }

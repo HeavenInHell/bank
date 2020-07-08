@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class Cashier : MonoBehaviour
 {
-void ProcessRequest()
-	{ }
+public static bool ProcessRequest()
+
+	{
+        System.Random rnd = new System.Random();
+        if (rnd.Next(100) > 50)
+            return true;
+        return false;
+    }
 }
